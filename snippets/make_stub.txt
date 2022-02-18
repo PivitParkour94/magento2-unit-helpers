@@ -1,0 +1,3 @@
+Turn constructor args into a PHPUnit stub
+
+$stub = $this->getMockBuilder($SELECTION$::class)->disableOriginalConstructor()->getMock(); 

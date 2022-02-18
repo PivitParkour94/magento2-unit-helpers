@@ -6,3 +6,4 @@ Utility for writing Magento 2 Unit tests - intended as PHPStorm file templates, 
 ## Functionality
 - Basic unit test using object manager
 - Block Template rendering unit test
+- Code snippets for quality of life tweaks

@@ -1,0 +1,12 @@
+    /**
+     * Replace value of a class member with a new class
+     * @param object $instance
+     * @param string $memberName
+     * @param object $newMemberValue
+     */
+    private function setClassMember(object $instance, string $memberName, object $newMemberValue)
+    {
+        $reflection = new \ReflectionProperty(get_class($instance), $memberName);
+        $reflection->setAccessible(true);
+        $reflection->setValue($instance, $newMemberValue);
+    }
